@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente para todaa la pagina*/
+    margin: 0; /* Margen */
+    background-color: #dad6d6; /* Color de fondo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: center; /* centrado del texto*/
+}
+
+header {
+    background-color: #8377b9; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 24px; /* Relleno */
+    height: 140px; /* altura*/
+    width: 100%; /*ancho*/
+    text-align: center; /*centrado del texto*/
+    margin-top: 0px; /*margen superior*/
+}
+nav ul {
+    padding: 0; /* No padding */
+}
+
+nav ul li {
+    display: inline; /* En línea */
+    margin: 0 40px; /* Espacio enlaces */
+}
+
+nav a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+main {
+    display: flex; /* Diseño de dos columnas */
+    flex-wrap: wrap; /* Envolver elementos */
+    padding: 24px; /* Area de relleno */
+}
+
+section {
+    flex: 3; /* Ocupar más espacio */
+    padding: 10px; /* Relleno */
+}
+
+p {
+    max-width: 600px; /* Ancho */
+    margin: 40px auto; /* Centrado de párrafos */
+}
+
+article:first-of-type h2 {
+    font-style: italic; /* selector que aplica el estilo al h2 del rpimer articulo*/
+}
+
+article {
+    max-width: 600px; /* Ancho */
+    margin: 40px auto; /* Centrado de artículos */
+
+}
+
+aside {
+    flex: 1; /* Ocupar menos espacio */
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px; /* Relleno */
+    margin: 20px auto; /* Margen */
+    border: 1px solid #ccc; /* Borde */
+}
+
+footer {
+    background-color: #835c7e; /* Color de fondo */
+    color: white; /* Color del texto*/
+    padding: 10px; /* Relleno */
+    text-align: center; /* Centrado texto */
+    position: relative; /* Posición */
+    width: 100%; /* Ancho */ 
+    display: flex; /* Representa elemento*/
+    gap: 12px; /*espacio */
+}
+
